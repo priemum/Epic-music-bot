@@ -1,7 +1,7 @@
 const { canModifyQueue } = require("../util/Util");
 const i18n = require("../util/i18n");
 
-module.exports = {
+module.exports = {          
   name: "skipto",
   aliases: ["st"],
   description: i18n.__("skipto.description"),
